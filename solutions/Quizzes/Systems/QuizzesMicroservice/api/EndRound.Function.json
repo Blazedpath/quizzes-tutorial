@@ -33,7 +33,7 @@
         "children": [
           {
             "command": "Set",
-            "expression": "params.userAnswer == quiz.correctAnswer",
+            "expression": "ConvertToInteger( params.userAnswer ) == quiz.correctAnswer",
             "variableName": "wasCorrect"
           },
           {
